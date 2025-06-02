@@ -1,0 +1,6 @@
+@csharp_response_compression_HostAddress = http://localhost:5224
+
+GET {{csharp_response_compression_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
