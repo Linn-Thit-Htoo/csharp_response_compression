@@ -15,7 +15,7 @@ namespace csharp_response_compression.Controllers
             _webHostEnvironment = webHostEnvironment;
         }
 
-        [HttpPost("GetCompressedBase64")]
+        [HttpGet("GetCompressedBase64")]
         public async Task<IActionResult> GetCompressedBase64()
         {
             try
